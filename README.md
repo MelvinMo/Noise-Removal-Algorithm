@@ -13,8 +13,8 @@ Let's explore each step in detail:
 - Filtering:
   - The noise removal process involves filtering the audio signal at specific frequency ranges. Two frequencies, f1 and f2, are targeted for filtering in this code.
 
-a. Filtering f1: 1043Hz
-A bandstop filter is designed using the Butterworth filter design method with a filter order of 2. The filter is configured to attenuate frequencies around 1043Hz, effectively removing noise at that frequency. Additionally, a bandpass filter is created to extract the filtered signal at f1. The filtered signal is plotted in the frequency domain.
+    - a. Filtering f1: 1043Hz
+      - A bandstop filter is designed using the Butterworth filter design method with a filter order of 2. The filter is configured to attenuate frequencies around 1043Hz, effectively removing noise at that frequency. Additionally, a bandpass filter is created to extract the filtered signal at f1. The filtered signal is plotted in the frequency domain.
 
 b. Filtering f2: 1956Hz
 Similar to the previous step, a bandstop filter is designed to attenuate frequencies around 1956Hz. The filtered signal from the previous step is further processed by this filter. A bandpass filter is also applied to extract the filtered signal at f2. The resulting signal is plotted in the frequency domain.
