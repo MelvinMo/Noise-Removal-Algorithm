@@ -1,4 +1,5 @@
-# SS_Course_Archive
+# Noise-Removal-Algorithm
+
 This project presents a noise removal algorithm implemented in MATLAB for audio files. The algorithm utilizes various signal processing techniques to filter out unwanted noise components, resulting in a cleaner audio output. This technical description provides a comprehensive overview of the code and its functionality.
 
 The code begins by reading an audio file using the audioread function, extracting the audio signal and the sampling frequency. The audio signal is then processed using a series of steps to remove noise and enhance the audio quality.
